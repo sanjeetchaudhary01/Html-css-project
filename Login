@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        body{
+            background-image: url(forest.jpg);
+            background-size: cover;
+        }
+.d1{
+    background-color: black;
+    opacity: 0.8;
+    width: 200px;
+            height: 200px;
+            position: fixed;
+            top : 30%;
+            left: 40%;
+            border-radius: 10px;
+            color: white;
+
+}
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <form action=""></form>
+        <br><br>
+        <center>Sign In</center>
+        <br>
+        <center>
+    <label for="login in"></label>
+    <input type="text" placeholder="Login ID">
+    <br><br>
+    <label for="password"></label>
+    <input type="password" name="" id="" placeholder="Password">
+    <BR><BR>
+    <button value="signin"> sign in</button>
+</center>
+</div>
+</body>
+</html>
